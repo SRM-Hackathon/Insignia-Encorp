@@ -33,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Boolean istshirts=false;
+        Boolean isshoes=false;
+        Boolean ispant=false;
+
 
         mSpeakBtn = (ImageButton) findViewById(R.id.btnSpeak);
 
@@ -84,11 +88,18 @@ public class MainActivity extends AppCompatActivity {
     }
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        String temp="";
 
         switch (requestCode) {
             case REQ_CODE_SPEECH_INPUT: {
                 if (resultCode == RESULT_OK && null != data) {
                     ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+                    temp=result.get(0);
+                    temp=temp.toLowerCase();
+                    if ((temp.contains("T-shirt"))&&(!(temp.contains("hat")))&&(!(temp.contains("shoe"))))
+                    {
+                        Intent intent = new Intent(MainActivity.this,)
+                    }
                     editText.setText(result.get(0));
                 }
                 break;
