@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/yellow"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <fragment
@@ -54,34 +55,67 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-                <ImageView
+                <ImageButton
+                    android:background="@drawable/btn_bg"
+                    android:id="@+id/men"
                     android:layout_marginTop="8dp"
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:src="@drawable/img4"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/men1"
                     android:layout_gravity="center"
                     />
-                <ImageView
+                <TextView
                     android:layout_marginTop="8dp"
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:src="@drawable/img4"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:layout_gravity="center"
-                    />
-                <ImageView
+                    android:background="@drawable/et_bg"
+                    android:text="MEN"
+                    android:textSize="20dp"
+                    android:textColor="@color/orange"/>
+                <ImageButton
+                    android:background="@drawable/btn_bg"
+                    android:id="@+id/women"
                     android:layout_marginTop="8dp"
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:src="@drawable/img4"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/women1"
                     android:layout_gravity="center"
                     />
-                <ImageView
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/et_bg"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="WOMEN"
+                    android:textSize="20dp"
+                    android:textColor="@color/orange"
+                    android:layout_height="wrap_content" />
+                <ImageButton
+                    android:background="@drawable/btn_bg"
+                    android:id="@+id/kids"
                     android:layout_marginTop="8dp"
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:src="@drawable/img4"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/kids1"
                     android:layout_gravity="center"
                     />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:background="@drawable/et_bg"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:text="KIDS"
+                    android:textSize="20dp"
+                    android:textColor="@color/orange"
+                    android:layout_marginBottom="10dp"
+                    />
+
             </LinearLayout>
 
         </LinearLayout>

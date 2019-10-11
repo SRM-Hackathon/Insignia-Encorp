@@ -1,5 +1,6 @@
 package com.example.insig_enc;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 
@@ -26,9 +27,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
+import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class INSIGNIA_ENCORP extends AppCompatActivity {
-
+    private ImageButton mens,womens,kid;
+  
     private AppBarConfiguration mAppBarConfiguration;
 
     @Override
@@ -39,6 +43,33 @@ public class INSIGNIA_ENCORP extends AppCompatActivity {
         setSupportActionBar(toolbar);
         final SliderView sliderView;
         sliderView = findViewById(R.id.imageSlider);
+
+        mens=(ImageButton)findViewById(R.id.men);
+        womens=(ImageButton)findViewById(R.id.women);
+        kid=(ImageButton)findViewById(R.id.kids);
+
+        mens.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in=new Intent(INSIGNIA_ENCORP.this,Men_activity.class);
+                startActivity(in);
+            }
+        });
+        womens.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(INSIGNIA_ENCORP.this,"under construction",Toast.LENGTH_LONG).show();
+            }
+        });
+        kid.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(INSIGNIA_ENCORP.this,"under construction",Toast.LENGTH_LONG).show();
+
+            }
+        });
+
+
 
         final SliderAdapterExample adapter = new SliderAdapterExample(this);
         adapter.setCount(5);
