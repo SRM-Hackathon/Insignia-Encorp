@@ -20,6 +20,15 @@
         android:text="Android Text to Speech (TTS) Demo"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:padding="16dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_microphone_2" />
+
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
