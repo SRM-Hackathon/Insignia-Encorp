@@ -96,10 +96,14 @@ public class MainActivity extends AppCompatActivity {
                     ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                     temp=result.get(0);
                     temp=temp.toLowerCase();
-                    if ((temp.contains("T-shirt"))&&(!(temp.contains("hat")))&&(!(temp.contains("shoe"))))
+                    Toast.makeText(MainActivity.this,"vella",Toast.LENGTH_LONG);
+                    if ((temp.contains("t-shirt"))&&(!(temp.contains("hat")))&&(!(temp.contains("shoe"))))
                     {
-                        Intent intent = new Intent(MainActivity.this,)
+                        Toast.makeText(MainActivity.this,"ulla",Toast.LENGTH_LONG).show();
+                        Intent intent = new Intent(MainActivity.this,tshirtActivity.class);
+                        startActivity(intent);
                     }
+
                     editText.setText(result.get(0));
                 }
                 break;
