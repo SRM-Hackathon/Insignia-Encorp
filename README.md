@@ -14,12 +14,14 @@ Thus providing a safer trial for user, while shopping on e-commerce sites, user 
 experience and the fact that the content is personalized only to user thus protecting privacy.
 
 Application 
+
 * Empricisi can be used a stand alone mobile application also it can be embedded with e-commerce applications. 
 * Beyond Clothing and Essential personal products, larger products like Car ,Furnitures can be visualized through it thus providing a complete mobile 
 shopping experience for a user.
 
 
 ##Prerequisites
+
 Windows OS 7 or higher
 RAM 4 GB
 Memory 800mb
@@ -28,12 +30,14 @@ Android Device of version 4.1 or higher
 Minimum 128mb integrated GPU
 
 ##Development
+
 The development phase is divided into 3 parts
 Part 1 - Mobile application and Voice Assistant development in Android Studio
 Part 2 - Augmented Reality application development in Unity 3D
 Part 3 - Intelligence development using NLP and Machine Learning in Python IDLE 3.6
 
 ##Mobile application and Voice Assistant development in Android Studio
+
 1. Voice assistance is set up with Google Speech/Text Engine 
 2. The corresponding Activities are set to trigger call for Unity AR Application
 3. Web view is enabled in order to form a cluster of E-commerce sites interlink
@@ -42,6 +46,7 @@ Part 3 - Intelligence development using NLP and Machine Learning in Python IDLE 
 6. Voice Assistant provides the guidance for the user to perform purchases depending upon the previous search results and preferences
 
 ##Augmented Reality application development in Unity 3D
+
 1. Create a Unity application on Android Platform
 2. Add Vuforia AR SDK to the build
 3. Get a AR camera and get a license for a database from developer portal
@@ -52,6 +57,7 @@ Part 3 - Intelligence development using NLP and Machine Learning in Python IDLE 
 8. Bulid the Apk and deploy it on Android Device
 
 ##Intelligence development using NLP and Machine Learning in Python IDLE 3.6
+
 1. Set up a Web Driver Bot using Selenium
 2. Get the URL of the targetted webpage and perform Web Harvesting
 3. The collected data is sent to NLTK where the sentimental analysis is applied on the data using Support Vector Machines, Regression and Classifers
@@ -64,6 +70,7 @@ The Mobile application is deployed on Android phone , the Unity application is c
 whenever initiated. The Intelligence operates from the Firebase database.
 
 ##Built With
+
 Android Studio,
 Unity 3D,
 Vufria AR Platform,
@@ -74,5 +81,6 @@ Scikit Learn ,
 NLTK.
 
 ##Authors
+
 Entire team of Insignia Encorp
 
