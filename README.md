@@ -59,6 +59,7 @@ Part 3 - Intelligence development using NLP and Machine Learning in Python IDLE 
 5. The Intelligence returns the result on text format to User.
 
 ##Deployment
+
 The Mobile application is deployed on Android phone , the Unity application is coupled with the Android application which triggers the AR action
 whenever initiated. The Intelligence operates from the Firebase database.
 
