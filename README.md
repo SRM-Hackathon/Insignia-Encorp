@@ -63,14 +63,14 @@ The Mobile application is deployed on Android phone , the Unity application is c
 whenever initiated. The Intelligence operates from the Firebase database.
 
 ##Built With
-Android Studio
-Unity 3D
-Vufria AR Platform
-Python IDLE
-Adobe XD
-Google Text&Speech Engine
-Scikit Learn 
-NLTK
+Android Studio,
+Unity 3D,
+Vufria AR Platform,
+Python IDLE,
+Adobe XD,
+Google Text&Speech Engine,
+Scikit Learn ,
+NLTK.
 
 ##Authors
 Entire team of Insignia Encorp
